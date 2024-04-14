@@ -1,0 +1,135 @@
+Department
+Get all departments
+Retrieve all departments.
+
+Method: GET
+Endpoint: /api/v1/getAllDepartment
+URL: http://localhost:8777/api/v1/getAllDepartment
+Response:
+200 OK on success, returns an array of department objects.
+404 Not Found if no departments are found.
+Delete department by ID
+Delete a department by its ID.
+
+Method: DELETE
+Endpoint: /api/v1/deleteDepartmentById/{department_id}
+URL Example: http://localhost:8777/api/v1/deleteDepartmentById/2
+Response:
+204 No Content on success, no response body.
+404 Not Found if the department with the specified ID is not found.
+Create department
+Create a new department.
+
+Method: POST
+Endpoint: /api/v1/createDepartment
+URL: http://localhost:8777/api/v1/createDepartment
+Request Body: JSON object containing department details.
+Response:
+201 Created on success, returns the created department object.
+400 Bad Request if the request body is invalid.
+Update department by ID
+Update a department by its ID.
+
+Method: PUT
+Endpoint: /api/v1/updateDepartmentById/{department_id}
+URL Example: http://localhost:8777/api/v1/updateDepartmentById/1
+Request Body: JSON object containing updated department details.
+Response:
+200 OK on success, returns the updated department object.
+404 Not Found if the department with the specified ID is not found.
+Position
+Create position
+Create a new position.
+
+Method: POST
+Endpoint: /api/v1/createPosition
+URL: http://localhost:8777/api/v1/createPosition
+Request Body: JSON object containing position details.
+Response:
+201 Created on success, returns the created position object.
+400 Bad Request if the request body is invalid.
+Update position by ID
+Update a position by its ID.
+
+Method: PUT
+Endpoint: /api/v1/updatePositionById/{position_id}
+URL Example: http://localhost:8777/api/v1/updatePositionById/1
+Request Body: JSON object containing updated position details.
+Response:
+200 OK on success, returns the updated position object.
+404 Not Found if the position with the specified ID is not found.
+Get all positions
+Retrieve all positions.
+
+Method: GET
+Endpoint: /api/v1/getAllPosition
+URL: http://localhost:8777/api/v1/getAllPosition
+Response:
+200 OK on success, returns an array of position objects.
+404 Not Found if no positions are found.
+Get position by ID
+Retrieve a position by its ID.
+
+Method: GET
+Endpoint: /api/v1/getPositionById/{position_id}
+URL Example: http://localhost:8777/api/v1/getPositionById/1
+Response:
+200 OK on success, returns the position object.
+404 Not Found if the position with the specified ID is not found.
+Delete position by ID
+Delete a position by its ID.
+
+Method: DELETE
+Endpoint: /api/v1/deletePositionById/{position_id}
+URL Example: http://localhost:8777/api/v1/deletePositionById/1
+Response:
+204 No Content on success, no response body.
+404 Not Found if the position with the specified ID is not found.
+Employee
+Create employee
+Create a new employee.
+
+Method: POST
+Endpoint: /api/v1/createEmployee
+URL: http://localhost:8777/api/v1/createEmployee
+Request Body: JSON object containing employee details.
+Response:
+201 Created on success, returns the created employee object.
+400 Bad Request if the request body is invalid.
+Get employee by ID
+Retrieve an employee by their ID.
+
+Method: GET
+Endpoint: /api/v1/getEmployeeById/{employee_id}
+URL Example: http://localhost:8777/api/v1/getEmployeeById/12
+Response:
+200 OK on success, returns the employee object.
+404 Not Found if the employee with the specified ID is not found.
+Delete employee by ID
+Delete an employee by their ID.
+
+Method: DELETE
+Endpoint: /api/v1/deleteEmployeeById/{employee_id}
+URL Example: http://localhost:8777/api/v1/deleteEmployeeById/11
+Response:
+204 No Content on success, no response body.
+404 Not Found if the employee with the specified ID is not found.
+Get all employees
+Retrieve all employees.
+
+Method: GET
+Endpoint: /api/v1/getAllEmployee
+URL: http://localhost:8777/api/v1/getAllEmployee
+Response:
+200 OK on success, returns an array of employee objects.
+404 Not Found if no employees are found.
+Update employee by ID
+Update an employee by their ID.
+
+Method: PUT
+Endpoint: /api/v1/updateEmployeeById/{employee_id}
+URL Example: http://localhost:8777/api/v1/updateEmployeeById/12
+Request Body: JSON object containing updated employee details.
+Response:
+200 OK on success, returns the updated employee object.
+404 Not Found if the employee with the specified ID is not found.
